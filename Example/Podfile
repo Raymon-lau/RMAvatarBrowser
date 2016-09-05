@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RMAvatarBrowser_Example' do
+  pod 'RMAvatarBrowser', :path => '../'
+
+  target 'RMAvatarBrowser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
